@@ -1,4 +1,4 @@
-# Repositorio ImagineMaker
+# Repositorio ImageMaker
 
 ## Ambiente de desarrollo
 FastAPI + SQlite
