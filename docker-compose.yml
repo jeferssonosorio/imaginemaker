@@ -1,0 +1,12 @@
+version: "3"
+services:
+  app:
+    build: .
+    image: imagemaker-app
+    restart: "no"
+    container_name: imagemaker-app
+    ports:
+      - "8001:8000"
+    volumes:
+      - ./app:/code/app
+      - ${PWD}/sql_app.db:/code/sql_app.db
